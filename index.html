@@ -10,10 +10,11 @@
     </head>
     <body>
         <header>
+
             <nav>
                 <a href="index.html">Accueil</a>
-                <a href="../rm09/Portfollio.html">Portfollio</a>
-                <a href="../rm09/contact.html">Contact</a>
+                <a href="./Portfollio.html">Portfollio</a>
+                <a href="./contact.html">Contact</a>
                 <a href="mailto:riadh.mohi@hotmail.fr" id="icone"><i class="fas fa-envelope"></i></a>
                 <a href="#" id="icone"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://www.facebook.com/riadh.mahio.77" id="icone"><i class="fab fa-facebook-square"></i></a>
@@ -28,12 +29,12 @@
                 <h2 class="title"><span>SOME OF MY LATEST WORK</span></h2>
                 <a href="Portfollio.html">
                     <article>
-                            <img src="img/2.png" alt="image du site"/>
+                            <img src="img/9.png" alt="image du site"/>
                     </article>
                 </a>
                 <a href="Portfollio.html">
                     <article>
-                            <img src="img/9.png" alt="image du site"/>
+                            <img src="img/2.png" alt="image du site"/>
                     </article>
                 </a>
                 <a href="Portfollio.html">
@@ -45,7 +46,7 @@
             <section id="contact">
                 <h2 class="title"><span>CONTACT</span></h2>
             </section>
-            <form class="form" method="POST" action="index.php" enctype="multipart/form-data">
+            <form class="form" method="POST" action="contacts.php" enctype="multipart/form-data">
 
                 <input type="text" name="nickname" class="name entry " placeholder="votre nom"/>
                 
@@ -54,16 +55,12 @@
                 <input type="telephone" name="telephone" class="telephone entry" placeholder="téléphone"/>
                 
                 <textarea class="message entry" name="messages" placeholder="Message"></textarea> 
-                
-                <button class="submit entry" name="submit" onclick="thanks()">Envoyer</button>
+
+                <input class="submit entry" type="submit" value="Envoyer">
+
             </form>
         
         </main>
-        <footer>
-            <nav>
-                <a href="#">portfollio</a>
-                <a href="#">contact</a>
-            </nav>
-        </footer>
+        
     </body>
 </html>
